@@ -1,0 +1,105 @@
+.shop{
+    padding:20rpx;
+    display:flex;
+    position: relative;
+}
+.shop .shop-img{
+    width:84px;
+    height:112px;
+    margin-right:20rpx;
+}
+.shop .shop-info{
+    display:flex;
+    flex-direction:column;
+    font-size:14px;
+    line-height:1.5;
+    width:520rpx;
+    color:#666;
+}
+.shop-title{
+    font-size:16px;
+    color:#333;
+    width:380rpx;
+}
+.shop-address{
+  margin-left: 86px;
+}
+/*商品打分 星星*/
+.shop-start{
+    position:absolute;
+    top:100rpx;
+    right:390rpx;
+}
+.star-before{ 
+    color:#ff9900;
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:75%;
+    overflow:hidden;
+}
+.but{
+  display: flex;
+  justify-content:space-around;
+  padding-bottom:20px;
+  color:#666;
+}
+.but button{
+  font-size:14px;
+  width:100px;
+  height:30px;
+  line-height:2.5;
+}
+.add{
+  color:#fff;
+  background-color:#ED424B;
+}
+/* 介绍隐藏 */
+.goods-details {
+  display: flex;
+  width: 100%;
+  font-size:14px;
+  flex-direction: column;
+  background-color: #fff;
+}
+.goods-details-content {
+  display: -webkit-box;
+  color: #4d4d4d;
+  margin-left: 24rpx;
+  margin-right: 24rpx;
+  line-height: 52rpx;
+  overflow: hidden;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  padding-bottom: 20rpx;
+  border-bottom:1rpx solid #ddd;
+  border-top: 1rpx solid #ddd;
+}
+.content-all {
+}
+.content-breif {
+  -webkit-line-clamp: 5;
+}
+/* 投票 */
+.toup{
+  display: flex;
+  justify-content: space-around;
+  margin-top:30px;
+  font-size: 14px;
+}
+.toup>view{
+  width:33.33%;
+  display:flex;
+  flex-direction: column;
+}
+.toup>view>text{
+  text-align: center;
+}
+.toup image{
+  width:33px;
+  height: 33px;
+  margin:0 auto
+}
+/* 书评 */

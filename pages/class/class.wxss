@@ -1,0 +1,39 @@
+/* pages/class/class.wxss */
+.top{
+    width:100%;
+    border-top:2px solid #F0F1F2;
+}
+.daclass{
+    margin:15rpx 30rpx;
+    padding-bottom:20rpx;
+    border-bottom:1px solid #F0F1F2;
+}
+.classb{
+   font-size:14px; 
+   margin-left:15px;
+   color: #969ba3;
+
+}
+.biaoq{
+    margin:15rpx 30rpx;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom:20px;
+}
+.biaoq text{
+    font-size:14px; 
+    color: #969ba3;
+    margin:8px;
+    border:1px solid #969ba3;
+    padding:6rpx 10rpx;
+    border-radius:10px;
+}
+.bottom{
+    width:100%;
+    border-top:2px solid #F0F1F2;
+    padding-top:10px;
+    color: #969ba3;
+    display:flex;
+    justify-content: center;
+}

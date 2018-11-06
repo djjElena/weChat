@@ -1,0 +1,216 @@
+<!--头-->
+<view class="a-top">
+  <text class="a">起点中文网</text>
+  <view  class="b-top">
+    <text class="b">男生</text>
+    <text  class="c">女生</text>
+  </view>
+  <view>
+    <image src="/image/1.png"></image>
+    <image src="/image/2.png"></image>
+  </view>
+</view>
+<!-- 轮播 -->
+<view class="slider">
+    <swiper autoplay interval="3500" indicator-dots="false">
+        <swiper-item>
+        <image src="https://qidian.qpic.cn/qidian_common/349573/b5960c8cee61cb32b37f75536d6528e3/0" mode='aspectFill' width="375" height="150" />
+        </swiper-item>
+        <swiper-item>
+        <image src="https://qidian.qpic.cn/qidian_common/349573/b0d55d653cad3058272f93e84d83bf97/0" mode='aspectFill' width="375" height="150" />
+        </swiper-item>
+        <swiper-item>
+        <image src="https://qidian.qpic.cn/qidian_common/349573/366a10bc9b212ca3f7d13cca99d898c1/0" mode='aspectFill' width="375" height="150" />
+        </swiper-item>
+        <swiper-item>
+        <image src="https://qidian.qpic.cn/qidian_common/349573/2e587195e5c039a6d7dcba1abc84e184/0" mode='aspectFill' width="375" height="150" />
+        </swiper-item>
+    </swiper>
+</view>
+<!-- 搜索 -->
+<input placeholder='重生之魔教教主' bindtap="showsous"></input>
+<!-- 分类 -->
+<view class="fenl">
+  <view>
+    <view class="fenl-bg icon fenl-bg-1" bindtap="showFl"></view>
+    <text> 分类</text>
+  </view>
+  <view>
+     <view class="fenl-bg icon fenl-bg-2" bindtap="showPhb"></view>
+    <text>排行榜</text>
+  </view>
+  <view>
+     <view class="fenl-bg icon fenl-bg-3" bindtap="showDs"></view>
+    <text>免费</text>
+  </view>
+  <view>
+     <view class="fenl-bg icon fenl-bg-4" bindtap="showDs"></view>
+    <text>完本</text>
+  </view>
+  <view>
+     <view class="fenl-bg icon fenl-bg-5" bindtap="showDs"></view>
+    <text>大神</text>
+  </view>
+</view>
+<!-- 连接 -->
+<view  class="ljts">
+  <image class="ljt" src='https://qidian.qpic.cn/qidian_common/349573/98630675299f399301c19529bcc02dda/0'></image>
+</view>
+<!-- 热门小说 -->
+<view class="rmxs">
+  <view>
+    <text class="rmxs1">热门小说</text>
+    <text class="rmxs2">起点编辑推荐</text>
+    <text class="gdw arrow">更多</text>
+  </view>
+  <scroll-view scroll-x class="huad" bindtap='showxianq'>
+  <view class="rmxs03">
+    <view class="rmxs3">
+      <image src="https://bookcover.yuewen.com/qdbimg/349573/1012894975/150" ></image>
+      原来我是妖二代
+      <view>卖报小郎君</view>
+    </view>
+    <view class="rmxs3">
+      <image src="https://bookcover.yuewen.com/qdbimg/349573/1010368052/150" ></image>
+      黑科技研发中心
+      <view>凡核桃</view>
+    </view>
+    <view class="rmxs3">
+      <image src="https://bookcover.yuewen.com/qdbimg/349573/1011305966/150"></image>
+      枪临星空
+      <view>夜色迷人醉</view>
+    </view>
+    <view class="rmxs3">
+      <image src="https://bookcover.yuewen.com/qdbimg/349573/1010707468/150" ></image>
+      网游之末日剑仙
+      <view>头发掉了</view>
+    </view>
+    <view class="rmxs3">
+      <image src="https://bookcover.yuewen.com/qdbimg/349573/1005061389/150" ></image>
+      如意小郎君
+      <view>荣小荣</view>
+    </view>
+    <view class="rmxs3">
+      <image src="https://bookcover.yuewen.com/qdbimg/349573/1010368052/150" ></image>
+      黑科技研发中心
+      <view>凡核桃</view>
+    </view>
+    <view class="rmxs3">
+      <image src="https://bookcover.yuewen.com/qdbimg/349573/1011305966/150"></image>
+      枪临星空
+      <view>夜色迷人醉</view>
+    </view>
+  </view>
+  </scroll-view>
+</view>
+<!-- 强推 -->
+<view class="qt">
+  <text class="qt1">新书强推</text>
+  <text>三江·网文新风</text>
+</view>
+<!--限时 -->
+<view class="rmxs">
+  <view>
+    <text class="rmxs1">限时免费</text>
+    <text class="time">
+      <text class="time1">01</text>
+      <text class="time2">01:</text>
+      <text class="time2">{{fen}}</text>
+      <text class="time2">:{{miao}}</text>
+      <text class="gdw  arrow">更多</text>
+    </text>
+  </view>
+  <scroll-view scroll-x class="huad">
+  <view class="rmxs03">
+    <view class="rmxs3">
+      <image src="https://bookcover.yuewen.com/qdbimg/349573/1011449952/150" ></image>
+      我在帝都建洞天
+      <view>万事皆虚</view>
+    </view>
+    <view class="rmxs3">
+      <image src="https://bookcover.yuewen.com/qdbimg/349573/1010325796/150" ></image>
+      进化之眼
+      <view>亚舍罗</view>
+    </view>
+    <view class="rmxs3">
+      <image src="https://bookcover.yuewen.com/qdbimg/349573/1009611207/150"></image>
+      山沟皇帝
+      <view>雨天下雨</view>
+    </view>
+    <view class="rmxs3">
+      <image src="https://bookcover.yuewen.com/qdbimg/349573/1012532126/150" ></image>
+      学霸的灵气复苏
+      <view>俩菜一汤</view>
+    </view>
+    <view class="rmxs3">
+      <image src="https://bookcover.yuewen.com/qdbimg/349573/1005061389/150" ></image>
+      如意小郎君
+      <view>荣小荣</view>
+    </view>
+    <view class="rmxs3">
+      <image src="https://bookcover.yuewen.com/qdbimg/349573/1010368052/150" ></image>
+      黑科技研发中心
+      <view>凡核桃</view>
+    </view>
+    <view class="rmxs3">
+      <image src="https://bookcover.yuewen.com/qdbimg/349573/1011305966/150"></image>
+      枪临星空
+      <view>夜色迷人醉</view>
+    </view>
+  </view>
+  </scroll-view>
+</view>
+<!--排行榜-->
+<view class="rmxs">
+  <view>
+    <text class="rmxs1">排行榜</text>
+    <text class="gdw  arrow">更多</text>
+  </view>
+  <view  class="phbbt">
+    <text class="phbbt1" style='color:{{awdx1}};background-color:{{bg1}}' bindtap="awdxs1">热销榜</text>
+    <text  class="phbbt1-5" style='color:{{awdx2}};background-color:{{bg2}}' bindtap="awdxs2">风云榜</text>
+    <text  class="phbbt1-5" style='color:{{awdx3}};background-color:{{bg3}}' bindtap="awdxs3">签约榜</text>
+    <text  class="phbbt2" style='color:{{awdx4}};background-color:{{bg4}}' bindtap="awdxs4">推荐榜</text>
+  </view>
+  <scroll-view scroll-x class="huad">
+  <view class="rmxs03">
+    <view class="rmxs3">
+      <image src="https://bookcover.yuewen.com/qdbimg/349573/1012237441/150" ></image>
+      全球高武
+      <view>老鹰吃小鸡</view>
+    </view>
+    <view class="rmxs3">
+      <image src="https://bookcover.yuewen.com/qdbimg/349573/1010191960/150" ></image>
+      大王饶命
+      <view>会说话的肘子</view>
+    </view>
+    <view class="rmxs3">
+      <image src="https://bookcover.yuewen.com/qdbimg/349573/1011705052/150"></image>
+      明朝败家子
+      <view>上山打老虎额</view>
+    </view>
+    <view class="rmxs3">
+      <image src="https://bookcover.yuewen.com/qdbimg/349573/1009704712/150" ></image>
+      牧神记
+      <view>宅猪</view>
+    </view>
+    <view class="rmxs3">
+      <image src="https://bookcover.yuewen.com/qdbimg/349573/1005061389/150" ></image>
+      如意小郎君
+      <view>荣小荣</view>
+    </view>
+    <view class="rmxs3">
+      <image src="https://bookcover.yuewen.com/qdbimg/349573/1010368052/150" ></image>
+      黑科技研发中心
+      <view>凡核桃</view>
+    </view>
+    <view class="rmxs3">
+      <image src="https://bookcover.yuewen.com/qdbimg/349573/1011305966/150"></image>
+      枪临星空
+      <view>夜色迷人醉</view>
+    </view>
+  </view>
+  </scroll-view >
+</view>
+<!-- 返回 -->
+<image src='/image/zd.png' class="fanhui" bindtap="fanhui"></image>

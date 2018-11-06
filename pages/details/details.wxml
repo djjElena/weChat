@@ -1,0 +1,52 @@
+<view class="shop" >
+    <image src="https://bookcover.yuewen.com/qdbimg/349573/1004150862/300" class="shop-img" mode="aspectFill" lazy-load></image>
+    <view class="shop-info">
+        <text class="shop-title ell">超维术士</text>
+        <text class="shop-tel">牧狐</text>
+        <text class="shop-address">8.8分/350人评过</text>
+        <text class="shop-time">玄幻/异世大陆</text>
+        <text class="shop-time">432.81万字 | 连载</text>
+    </view>
+    <view class="shop-start">
+        <view class="star-after">☆☆☆☆☆</view>
+        <view class="star-before">★★★★★</view>
+    </view>
+</view>
+<view class="but" bindtap="addclass">
+  <button  class="{{w == 1?'add':''}}" data-w = "1">免费试读</button>
+  <button bindtap='jiarshuj' class="{{w == 2?'add':''}}" data-w = "2">加入书架</button>
+  <button class="{{w == 3?'add':''}}" data-w = "3">VIP订阅</button>
+</view>
+<view class='goods-details'>
+  <text catchtap='showAllAction' class='goods-details-content {{isShowAllContent ?"content-all" :"content-breif"}}'>
+    巫师的地位，在各大陆与泛位面中，超然无上。
+    神秘、智慧、残忍、血腥，俨然是巫师的代名词。
+    但真实的巫师又是什么样的？
+    安格尔在接触巫师世界后，得出一个结论：
+    巫师，是一种用唯心思想明照自我，却用唯物的态度辩证世界的一群人。换言之，这是一群在追寻真实的路上，严谨态度踽踽独行的另类科学家。
+    多重世界，无垠重叠。智慧生物在冥冥中的引导下，走出了各自的文明之路。
+    其中巫师世界，以其独有的修炼文明，横贯无尽位面。
+    纵然巫师世界强势至此，宇宙的真实，维度的奥秘还是始终无法堪破。
+    直到，一位多元宇宙的穿越来客，造访了这方世界。（穿越者不是主角不是主角不是主角，重要的事情说三遍！）
+  </text>
+</view>
+<!-- 投票 -->
+<view class='toup'>
+  <view>
+    <image src='/image/ypia.png'></image>
+    <text>投月票</text>
+    <text>第n位</text>
+  </view>
+  <view>
+    <image src='/image/tjp.png'></image>
+    <text>投推荐票</text>
+    <text>第n位</text>
+  </view>
+  <view bindtap="dashang"  >
+    <image src='/image/dsds.png'></image>
+    <text>打赏</text>
+    <text>本周{{num}}人打赏</text>
+  </view>
+</view>
+<!-- 书评 -->
+

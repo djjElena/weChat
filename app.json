@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/details/details",
+    "pages/sous/sous",
+    "pages/paihangb/paihangb",
+    "pages/dashen/dashen",
+    "pages/class/class",
+    "pages/logs/logs",
+    "pages/lonin/login"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "推荐",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "推荐",
+        "iconPath": "image/tabs/推荐.png",
+        "selectedIconPath": "image/tabs/推荐1.png"
+      },
+      {
+        "pagePath": "pages/lonin/login",
+        "text": "书架",
+        "iconPath": "image/tabs/书架.png",
+        "selectedIconPath": "image/tabs/书架1.png"
+      }
+    ]
+  }
+}

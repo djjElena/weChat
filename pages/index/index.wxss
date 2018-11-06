@@ -1,0 +1,175 @@
+/**头**/
+page{background-color:#F6F7F9}
+.a-top{
+  display: flex;
+  flex-direction: nowrap;
+  justify-content: space-between;
+  font-size:20px;
+  margin:15rpx;
+  height:44rpx;
+}
+.a-top .a{
+  color:#33373D;
+  font-family: "宋体";
+}
+.b-top text{
+  padding:8rpx 12rpx;
+  line-height:25px;
+  font-size:14px;
+  border:1px solid #ED424B;
+}
+.b-top .b{
+  color:#fff;
+  background:#ED424B;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.b-top .c{
+  color:#ED424B;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.a-top image{
+  margin:15rpx;
+  width:25px;
+  height:18px;
+}
+/*轮播*/
+.slider{
+  margin-top:30rpx;
+}
+.slider,.slider image,.slider swiper{
+  width:100%;
+  height:390rpx;
+}
+/*搜索*/
+input{
+  width:350px;
+  height:30px;
+  text-align:center;
+  background-color:#fff;
+  border-radius:5px;
+  margin:10px auto;
+  font-size:14px;
+}
+/* 分类 */
+.fenl{
+  display:flex;
+  justify-content:space-between;
+  background-color:#fff;
+  padding:10rpx 50rpx;
+}
+.fenl view{
+  position:relative;
+}
+.fenl text{
+  text-align: center;
+  font-size:14px;
+}
+.fenl-bg{
+  background:url(https://qidian.gtimg.com/qdm/icon/common/sprite@2x.f5569.png);
+  background-size:87px 87px;
+  width:30px;height: 30px;
+}
+.icon {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  margin-bottom:-8px;
+}
+.fenl-bg-1{
+  background-position:-57px -27px;
+}
+.fenl-bg-2{
+  background-position:0px 0px;
+}
+.fenl-bg-3{
+  background-position:0px -30px;
+}
+.fenl-bg-4{
+  background-position:0px -60px;
+}
+.fenl-bg-5{
+  background-position:-30px -30px;
+}
+/* 连接 */
+.ljts{
+  width:100%;height:52px;
+  display:flex;
+  }
+.ljt{
+  width:343px;height:52px;
+  margin:20rpx auto;
+
+}
+/* 热门推荐 */
+.rmxs{
+  margin:20px 0;
+  background-color: #fff;
+}
+
+/* 强推 */
+.qt{
+  margin:30rpx 30rpx;
+  display:flex;
+  justify-content: center;
+}
+.qt text{
+  padding:20rpx 20rpx;
+  width:140px;
+  line-height:12px;
+  text-align: center;
+  border:1px solid #ED424B;
+  border-radius:20px;
+  color:#ED424B;
+}
+.qt1{
+  margin-right:50rpx;
+}
+/* 限时 */
+.time{
+  font-size:12px;
+}
+.time1{
+  background-color: #ED424B;
+  border-radius:8rpx;
+  color:#fff;
+  padding:2rpx;
+}
+.time2{
+  background-color: #000;
+  border-radius:8rpx;
+  color:#fff;
+  padding:2rpx;
+}
+/* 排行榜 */
+.phbbt{
+  display:flex;
+  justify-content: center;
+  margin:10px 0;
+}
+.phbbt text{
+  padding:8rpx 35rpx;
+  line-height:25px;
+  font-size:14px;
+  text-align: center;
+}
+.phbbt1{
+  color:#ED424B;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border:1px solid #ED424B;
+  border-right: 0px solid #ED424B;
+}
+.phbbt1-5{
+  color:#ED424B;
+  border-bottom:1px solid #ED424B;
+  border-left:1px solid #ED424B;
+  border-top:1px solid #ED424B;
+}
+.phbbt2{
+  color:#ED424B;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border:1px solid #ED424B;
+}

@@ -1,0 +1,17 @@
+<!--pages/lonin/login.wxml-->
+<view class="puanj">
+  <image src='/image/loog.png' style="display: {{yangshi}};"></image>
+  <view class="yhm" bindtap="djbys">
+    <image src="/image/n.png"></image>
+    <input bindblur="bindInput" placeholder='请输入邮箱/个人账号' value="{{val}}"></input>
+  </view>
+  <view class="yhm">
+    <image src="/image/p.png" ></image>
+    <input bindblur="bindnput1" placeholder='请输入密码' value="{{val1}}"></input>
+  </view>
+  <view class="wjmm">
+    <text>忘记密码</text>
+    <text>用户注册</text>
+  </view>
+  <button bindtap="dlu">登录</button>
+</view>

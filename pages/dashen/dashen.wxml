@@ -1,0 +1,179 @@
+<!--pages/dashen/dashen.wxml-->
+<view class="rmxs">
+  <view>
+    <text class="rmxs1">大神新书</text>
+  </view>
+  <scroll-view scroll-x class="huad">
+  <view scroll-x class="rmxs03">
+    <view class="rmxs3">
+      <image src="https://bookcover.yuewen.com/qdbimg/349573/1012894975/150" ></image>
+      原来我是妖二代
+      <view>卖报小郎君</view>
+    </view>
+    <view class="rmxs3">
+      <image src="https://bookcover.yuewen.com/qdbimg/349573/1010368052/150" ></image>
+      黑科技研发中心
+      <view>凡核桃</view>
+    </view>
+    <view class="rmxs3">
+      <image src="https://bookcover.yuewen.com/qdbimg/349573/1011305966/150"></image>
+      枪临星空
+      <view>夜色迷人醉</view>
+    </view>
+    <view class="rmxs3">
+      <image src="https://bookcover.yuewen.com/qdbimg/349573/1010707468/150" ></image>
+      网游之末日剑仙
+      <view>头发掉了</view>
+    </view>
+    <view class="rmxs3">
+      <image src="https://bookcover.yuewen.com/qdbimg/349573/1005061389/150" ></image>
+      如意小郎君
+      <view>荣小荣</view>
+    </view>
+    <view class="rmxs3">
+      <image src="https://bookcover.yuewen.com/qdbimg/349573/1010368052/150" ></image>
+      黑科技研发中心
+      <view>凡核桃</view>
+    </view>
+    <view class="rmxs3">
+      <image src="https://bookcover.yuewen.com/qdbimg/349573/1011305966/150"></image>
+      枪临星空
+      <view>夜色迷人醉</view>
+    </view>
+  </view>
+  </scroll-view>
+</view>
+<!-- 白金列表 -->
+<view class="bjlist">
+  <view>
+    <text class="rmxs1">白金列表</text>
+  </view>
+
+  <view class="rwlist">
+    <image src="https://facepic.qidian.com/qd_face/349573/a4362086/0"></image>
+    <text class="bjbq">白金</text>
+    <view class="c1 ">
+      <text>瑞根</text><text class="dsarrow"></text>
+      <text class="ell xbkx">阅文集团白金作家，网络文学知名作家，名下作品曾留下“网络点击率之最”的神话。</text>
+    </view>
+  </view>
+  <view class="rwlist">
+    <image src="https://facepic.qidian.com/qd_face/349573/a4363029/0"></image>
+    <text class="bjbq">白金</text>
+    <view class="c1 ">
+      <text>丛林狼</text><text class="dsarrow"></text>
+      <text class="ell xbkx">阅文集团白金作家，中国作家协会会员，网络军事文学旗帜人物，擅长军旅、战争类题材。</text>
+    </view>
+  </view>
+  <view class="rwlist">
+    <image src="https://facepic.qidian.com/qd_face/349573/a4362583/0"></image>
+    <text class="bjbq">白金</text>
+    <view class="c1 ">
+      <text>林海听涛</text><text class="dsarrow"></text>
+      <text class="ell xbkx">阅文集团白金作家，著名网络体育竞技文作家，原创竞技小说第一人，足球竞技小说旗帜。</text>
+    </view>
+  </view>
+  <view class="rwlist">
+    <image src="https://facepic.qidian.com/qd_face/349573/a4921/0"></image>
+    <text class="bjbq">白金</text>
+    <view class="c1 ">
+      <text>唐家三少</text><text class="dsarrow"></text>
+      <text class="ell xbkx">阅文集团白金作家，网络文学代表人物之一，名下畅销书极多，蝉联多年作家富豪榜榜首。</text>
+    </view>
+  </view>
+  <view class="rwlist">
+    <image src="https://facepic.qidian.com/qd_face/349573/a4362976/0"></image>
+    <text class="bjbq">白金</text>
+    <view class="c1 ">
+      <text>傲无常</text><text class="dsarrow"></text>
+      <text class="ell ">阅文集团白金作家，畅销书写手，其创作题材丰富，各种题材均极为擅长。</text>
+    </view>
+  </view>
+</view>
+<!-- 加载更多 -->
+<view  wx:if="{{num}}" class="jazgd" >
+  <text bindtap="clickgd">加载更多</text>
+</view>
+<view wx:else class="jazgdbg">
+  <view class="rwlist">
+    <image src="https://facepic.qidian.com/qd_face/349573/a4362086/0"></image>
+    <text class="bjbq">白金</text>
+    <view class="c1 ">
+      <text>瑞根</text><text class="dsarrow"></text>
+      <text class="ell xbkx">阅文集团白金作家，网络文学知名作家，名下作品曾留下“网络点击率之最”的神话。</text>
+    </view>
+  </view>
+  <view class="rwlist">
+    <image src="https://facepic.qidian.com/qd_face/349573/a4363029/0"></image>
+    <text class="bjbq">白金</text>
+    <view class="c1 ">
+      <text>丛林狼</text><text class="dsarrow"></text>
+      <text class="ell xbkx">阅文集团白金作家，中国作家协会会员，网络军事文学旗帜人物，擅长军旅、战争类题材。</text>
+    </view>
+  </view>
+  <view class="rwlist">
+    <image src="https://facepic.qidian.com/qd_face/349573/a4362583/0"></image>
+    <text class="bjbq">白金</text>
+    <view class="c1 ">
+      <text>林海听涛</text><text class="dsarrow"></text>
+      <text class="ell xbkx">阅文集团白金作家，著名网络体育竞技文作家，原创竞技小说第一人，足球竞技小说旗帜。</text>
+    </view>
+  </view>
+  <view class="rwlist">
+    <image src="https://facepic.qidian.com/qd_face/349573/a4921/0"></image>
+    <text class="bjbq">白金</text>
+    <view class="c1 ">
+      <text>唐家三少</text><text class="dsarrow"></text>
+      <text class="ell xbkx">阅文集团白金作家，网络文学代表人物之一，名下畅销书极多，蝉联多年作家富豪榜榜首。</text>
+    </view>
+  </view>
+</view>
+<!-- 大神列表 -->
+<view class="bjlist">
+  <view>
+    <text class="rmxs1">大神列表</text>
+  </view>
+
+  <view class="rwlist">
+    <image src="https://facepic.qidian.com/qd_face/349573/a4362086/0"></image>
+    <text class="dsbq">大神</text>
+    <view class="c1 ">
+      <text>瑞根</text><text class="dsarrow"></text>
+      <text class="ell xbkx">阅文集团白金作家，网络文学知名作家，名下作品曾留下“网络点击率之最”的神话。</text>
+    </view>
+  </view>
+  <view class="rwlist">
+    <image src="https://facepic.qidian.com/qd_face/349573/a4363029/0"></image>
+    <text class="dsbq">大神</text>
+    <view class="c1 ">
+      <text>丛林狼</text><text class="dsarrow"></text>
+      <text class="ell xbkx">阅文集团白金作家，中国作家协会会员，网络军事文学旗帜人物，擅长军旅、战争类题材。</text>
+    </view>
+  </view>
+  <view class="rwlist">
+    <image src="https://facepic.qidian.com/qd_face/349573/a4362583/0"></image>
+    <text class="dsbq">大神</text>
+    <view class="c1 ">
+      <text>林海听涛</text><text class="dsarrow"></text>
+      <text class="ell xbkx">阅文集团白金作家，著名网络体育竞技文作家，原创竞技小说第一人，足球竞技小说旗帜。</text>
+    </view>
+  </view>
+  <view class="rwlist">
+    <image src="https://facepic.qidian.com/qd_face/349573/a4921/0"></image>
+    <text class="dsbq">大神</text>
+    <view class="c1 ">
+      <text>唐家三少</text><text class="dsarrow"></text>
+      <text class="ell xbkx">阅文集团白金作家，网络文学代表人物之一，名下畅销书极多，蝉联多年作家富豪榜榜首。</text>
+    </view>
+  </view>
+  <view class="rwlist">
+    <image src="https://facepic.qidian.com/qd_face/349573/a4362976/0"></image>
+    <text class="dsbq">大神</text>
+    <view class="c1 ">
+      <text>傲无常</text><text class="dsarrow"></text>
+      <text class="ell ">阅文集团白金作家，畅销书写手，其创作题材丰富，各种题材均极为擅长。</text>
+    </view>
+  </view>
+</view>
+<!-- 返回 -->
+<image src='/image/zd.png' class="fanhui" bindtap="fanhui"></image>

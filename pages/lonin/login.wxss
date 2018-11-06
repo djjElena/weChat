@@ -1,0 +1,36 @@
+.puanj{
+  display:flex;
+  flex-direction:column;
+}
+.puanj>image{
+  margin:10px auto;
+  width:50px;
+  height:50px;
+}
+.yhm{
+  margin:20px 0 10px 30px;
+  padding-bottom:5px;
+  border-bottom:1px solid #EEEEEE;
+}
+.yhm>image{
+  width:35px;
+  height:35px;
+}
+.yhm>input{
+  margin-left:10rpx;
+  display:inline-block;
+  font-size:16px;
+}
+.wjmm{
+  display:flex;
+  justify-content:space-around;
+  color:#0091DE;
+  font-size:14px;
+}
+button{
+  margin:30px;
+  border-radius:30px;
+  font-size:16px;
+  color:#fff;
+  background-color:#F37D82;
+}

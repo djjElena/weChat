@@ -1,0 +1,134 @@
+<!--pages/class/class.wxml-->
+<view class="top"></view>
+<view class="daclass">
+    <text>玄幻</text>
+    <text class="classb">共687206本作品</text>
+    <text class="arrow"></text>
+</view>
+<view class="biaoq">
+    <text>东方玄幻</text>
+    <text>异世大陆</text>
+    <text>王朝争霸</text>
+    <text>高武世界</text>
+</view>
+<view class="daclass">
+    <text>奇幻</text>
+    <text class="classb">共155337本作品</text>
+    <text class="arrow"></text>
+</view>
+<view class="biaoq">
+    <text>剑与魔法</text>
+    <text>史诗传奇</text>
+    <text>黑暗幻想</text>
+    <text>现代魔法</text>
+    <text>历史神话</text>
+    <text>另类幻想</text>
+</view>
+<view class="daclass">
+    <text>武侠</text>
+    <text class="classb">共45646本作品</text>
+    <text class="arrow"></text>
+</view>
+<view class="biaoq">
+    <text>传统武侠</text>
+    <text>武侠幻想</text>
+    <text>国术无双</text>
+    <text>古武未来</text>
+    <text>武侠同人</text>
+</view>
+<view class="daclass">
+    <text>都市</text>
+    <text class="classb">共368088本作品</text>
+    <text class="arrow"></text>
+</view>
+<view class="biaoq">
+    <text>都市生活</text>
+    <text>异术异能</text>
+    <text>恩怨情仇</text>
+    <text>青春校园</text>
+    <text>娱乐明星</text>
+    <text>官方沉浮</text>
+    <text>商战职场</text>
+</view>
+<view class="daclass">
+    <text>现实</text>
+    <text class="classb">共14494本作品</text>
+    <text class="arrow"></text>
+</view>
+<view class="biaoq">
+    <text>现实百态</text>
+    <text>爱情婚姻</text>
+    <text>社会乡士</text>
+    <text>生活时尚</text>
+    <text>文学艺术</text>
+    <text>成功励志</text>
+    <text>青春文学</text>
+</view>
+<view class="daclass">
+    <text>军事</text>
+    <text class="classb">共20578本作品</text>
+    <text class="arrow"></text>
+</view>
+<view class="biaoq">
+    <text>战争幻想</text>
+    <text>谍战特工</text>
+    <text>军旅生涯</text>
+    <text>抗战烽火</text>
+    <text>军事战争</text>
+</view>
+<view class="daclass">
+    <text>历史</text>
+    <text class="classb">共80569本作品</text>
+    <text class="arrow"></text>
+</view>
+<view class="biaoq">
+    <text>外国历史</text>
+    <text>历史传记</text>
+    <text>架空历史</text>
+    <text>上古先秦</text>
+    <text>秦汉三国</text>
+    <text>两晋隋唐</text>
+    <text>五代十国</text>
+    <text>两宋元明</text>
+    <text>清史民国</text>
+    <text>民间传说</text>
+</view>
+<view class="daclass">
+    <text>游戏</text>
+    <text class="classb">共108810本作品</text>
+    <text class="arrow"></text>
+</view>
+<view class="biaoq">
+    <text>电子竞技</text>
+    <text>虚拟网游</text>
+    <text>游戏异界</text>
+    <text>游戏系统</text>
+    <text>游戏主播</text>
+</view>
+<view class="daclass">
+    <text>体育</text>
+    <text class="classb">共10316本作品</text>
+    <text class="arrow"></text>
+</view>
+<view class="biaoq">
+    <text>篮球运动</text>
+    <text>体育赛事</text>
+    <text>足球运动</text>
+</view>
+<view class="daclass">
+    <text>科幻</text>
+    <text class="classb">共154446本作品</text>
+    <text class="arrow"></text>
+</view>
+<view class="biaoq">
+    <text>星际文明</text>
+    <text>时空穿梭</text>
+    <text>未来世界</text>
+    <text>古武机甲</text>
+    <text>超级科技</text>
+    <text>进化变异</text>
+    <text>末世危机</text>
+</view>
+<view class="bottom">到底了~~~</view>
+<!-- 返回 -->
+<image src='/image/zd.png' class="fanhui" bindtap="fanhui"></image>

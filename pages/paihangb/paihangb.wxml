@@ -1,0 +1,79 @@
+<view class="shop" >
+    <image bindtap="showDs" src="https://qidian.gtimg.com/qdm/img/rank/rank-bg-1.c077f.jpg" class="shop-img" mode="aspectFill" lazy-load></image>
+    <text>风云榜</text>
+    <view class="shop-info">
+      <view>
+        <text class="arrow2">1.大王饶命</text>
+        <text class="arrow2">2.太初</text>
+        <text class="arrow2">3.诡秘之主</text>
+        <text class="arrow2">4.牧神记</text>
+        <text class="arrow2">5.全球高武</text>
+      </view>  
+    </view>
+</view>
+<view class="shop" >
+    <image bindtap="showDs" src="https://qidian.gtimg.com/qdm/img/rank/rank-bg-2.868f8.jpg" class="shop-img" mode="aspectFill" lazy-load></image>
+    <text>畅销榜</text>
+    <view class="shop-info">
+      <view>
+        <text class="arrow2">1.一品修仙</text>
+        <text class="arrow2">2.全球高武</text>
+        <text class="arrow2">3.大王饶命</text>
+        <text class="arrow2">4.明朝败家子</text>
+        <text class="arrow2">5.圣墟</text>
+      </view>  
+    </view>
+</view>
+<view class="shop" >
+    <image bindtap="showDs" src="https://qidian.gtimg.com/qdm/img/rank/rank-bg-3.cd1bc.jpg" class="shop-img" mode="aspectFill" lazy-load></image>
+    <text>点击榜</text>
+    <view class="shop-info">
+      <view>
+        <text class="arrow2">1.大王饶命</text>
+        <text class="arrow2">2.斗破苍穹</text>
+        <text class="arrow2">3.牧神记</text>
+        <text class="arrow2">4.圣墟</text>
+        <text class="arrow2">5.修真聊天群</text>
+      </view>  
+    </view>
+</view>
+<view class="shop" >
+    <image bindtap="showDs" src="https://qidian.gtimg.com/qdm/img/rank/rank-bg-4.b5dae.jpg" class="shop-img" mode="aspectFill" lazy-load></image>
+    <text>推荐榜</text>
+    <view class="shop-info">
+      <view>
+        <text class="arrow2">1.一品修仙</text>
+        <text class="arrow2">2.全球高武</text>
+        <text class="arrow2">3.黎明之剑</text>
+        <text class="arrow2">4.圣墟</text>
+        <text class="arrow2">5.修真聊天群</text>
+      </view>  
+    </view>
+</view>
+<view class="shop" >
+    <image bindtap="showDs" src="https://qidian.gtimg.com/qdm/img/rank/rank-bg-5.5e078.jpg" class="shop-img" mode="aspectFill" lazy-load></image>
+    <text>更新榜</text>
+    <view class="shop-info">
+      <view>
+        <text class="arrow2">1.超级万能摇一摇</text>
+        <text class="arrow2">2.汤姆谢修</text>
+        <text class="arrow2">3.美女总裁之超品高手</text>
+        <text class="arrow2">4.我假装会异能</text>
+        <text class="arrow2">5.捡个偶像当女友</text>
+      </view>  
+    </view>
+</view>
+<view class="shop" >
+    <image bindtap="showDs" src="https://qidian.gtimg.com/qdm/img/rank/rank-bg-11.d5b17.jpg" class="shop-img" mode="aspectFill" lazy-load></image>
+    <text>签约榜</text>
+    <view class="shop-info">
+      <view>
+        <text class="arrow2">1.大王饶命</text>
+        <text class="arrow2">2.太初</text>
+        <text class="arrow2">3.诡秘之主</text>
+        <text class="arrow2">4.牧神记</text>
+        <text class="arrow2">5.全球高武</text>
+      </view>  
+    </view>
+</view>
+

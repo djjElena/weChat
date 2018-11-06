@@ -1,0 +1,20 @@
+<view>
+  <image src="/image/ss.png"></image>
+  <input placeholder='斩龙'></input>
+  <button>搜索</button>
+</view>
+<view class="dajdz">
+  <text>大家都在搜</text>
+</view>
+<view>
+  <view class="biaoq">
+    <text>全民武道</text>
+    <text>我的女友是恶女</text>
+    <text>绝代名师</text>
+    <text>大唐不良人</text>
+    <text>伊塔之柱</text>
+    <text>鹰掠九天</text>
+    <text>超级怪兽工厂</text>
+    <text>美剧世界大冒险</text>
+</view>
+</view>
